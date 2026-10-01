@@ -4,6 +4,45 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.1.1
+
+**October 1, 2026**
+
+Camera actions
+
+- Added a Set Camera Bounds action.
+- Added position offsets and an option to attach the camera to a character in the Move Camera action.
+- Grouped transition options for Reset Camera Position and Reset Camera Zoom, and added easing and wait for completion options.
+- Removed the Focus option from Zoom Camera.
+- Fixed Reset Camera Position and Reset Camera Zoom to follow the player.
+- Fixed camera actions being limited by map bounds determined from edge tiles in map.
+
+NPCs and event triggers
+
+- Added NPC-to-NPC collisions, collision avoidance, and options to control what NPCs collide with.
+- Fixed touch triggers being blocked while an NPC was following the player.
+- Fixed event trigger previews attached to NPCs not accounting for NPC movement in the action list.
+- Fixed the cursor not changing on the trigger attached to NPC radius outline.
+- Removed the NPC outline in Add Event Trigger when the trigger is attached to an NPC.
+
+Dialogue, choices, and input
+
+- Added mouse press and release triggers.
+- Added the `@name` dialogue command.
+- Added text outline options to typography settings.
+- Added the ability to change the layout in the Choices action.
+- Added drag to reorder choices in the Choices action.
+
+Editor improvements
+
+- Added drag to reorder maps in the map dropdown.
+- Grouped transition options and added an option to disable transitions.
+- Made input steps consistent for time values in milliseconds.
+- Renamed Character to NPC where appropriate.
+- Fixed the active map editor tool resetting when entering playtest from the Events tab.
+- Fixed the True/false dropdown being too narrow.
+- Fixed a rare ID parsing error when creating an autotile.
+
 ## 1.1.0
 
 **September 13, 2026**
