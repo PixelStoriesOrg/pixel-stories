@@ -4,6 +4,12 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.1.3
+
+**October 5, 2026**
+
+- Fixed an issue where projects could not save if project id did not match the id in project folder. Changed so that the project id source of truth lives inside the project data, and project folder can be differently named without issue.
+
 ## 1.1.2
 
 **October 4, 2026**
