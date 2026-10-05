@@ -4,6 +4,38 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.1.2
+
+**October 4, 2026**
+
+Events and actions
+
+- Added positional sounds that exist in the world, where the volume depends on how close the player is to the sound.
+- Added change, pause, resume, or stop sound actions.
+- Added parallel event triggers and improved handling of parallel dialogue, choices, camera fade/move, and image/video actions.
+- Added support for saving games while events are running and resuming those events when loading a save.
+- Fixed loading a save sometimes can run the map enter actions before map start actions are finished.
+- Fixed dialogue text freezing when skipping dialogue containing a wait action. Skipping now reveals text up to the action and waits.
+- Fixed buttons not staying disabled when loading a save with an unfinished button event.
+- Fixed Set Camera Bounds to apply immediately when it is the first action in map start.
+
+Editor improvements
+
+- Added a new tileset selection dropdown.
+- Added a delay before dimming other tile layers when hovering over a layer in the list.
+- Improved asset picker search with fuzzy matching.
+- Improved backup history to keep the newest backup for the last 10 minutes, one per minute, 6 hours, one per hour, and 4 days, one per day, based on when backups were made.
+- Fixed a rare race condition where a project could autosave into a different project.
+- Fixed incorrect left padding when selecting text in the dialogue editor.
+- Fixed incorrect map editor camera positions being saved after resizing the window.
+
+Game improvements and fixes
+
+- Improved NPC pathfinding performance.
+- Fixed the player being unable to move diagonally against NPC collisions.
+- Fixed scrollbars appearing with some fonts in the options menu.
+- Fixed filename encoding and decoding preventing exported games from loading assets.
+
 ## 1.1.1
 
 **October 1, 2026**
